@@ -1,0 +1,68 @@
+/*
+.progress-bar-label{
+
+}*/
+
+/*.progress-bar-level{
+
+}*/
+
+.gameboard {
+    border: 0px solid black;
+    display: grid;
+    gap: 0;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+}
+
+.box {
+    border: 1px solid black;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    font-size: 2vw; /*vw = view width*/
+    margin: 0;
+    padding: 0;
+}
+
+.division-one{
+    background-color: lightblue;
+}
+
+.division-two{
+    background-color: lightcoral;
+}
+
+.division-three{
+    background-color: lightgreen;
+}
+
+.left-border{
+    border-left: 5px solid black;
+}
+
+.right-border{
+    border-right: 5px solid black;
+}
+
+.top-border{
+    border-top: 5px solid black;
+}
+
+.bottom-border{
+    border-bottom: 5px solid black;
+} 
+
+.island{
+    background-color: green;
+}
+
+.list-group-item {
+    word-wrap: break-word;
+    margin: 0;
+    padding: 10px;
+}
+
+.fill-width{
+    width: 100%;
+}
